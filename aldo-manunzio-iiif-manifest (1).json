@@ -1,0 +1,34 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://example.com/manifest/aldo-manunzio.json",
+    "@type": "sc:Manifest",
+    "label": "Aldo Manunzio",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://example.com/canvas/aldo-manunzio",
+                    "@type": "sc:Canvas",
+                    "label": "Aldo Manunzio Canvas",
+                    "height": 1080,
+                    "width": 1920,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://example.com/canvas/aldo-manunzio",
+                            "resource": {
+                                "@id": "https://ibb.co/dBkV5DF",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1080,
+                                "width": 1920
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
